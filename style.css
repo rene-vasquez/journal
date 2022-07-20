@@ -12,6 +12,10 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+
+a:hover {
+    opacity: 50%;
+}
   
 #page-container {
     position: relative;
