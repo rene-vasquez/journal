@@ -33,7 +33,7 @@ a:visited {
 
 .nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 0px 20px 0px 20px;
     font-size: larger;
 }
@@ -49,4 +49,12 @@ a:visited {
 .footer {
     display: flex;
     justify-content: center;
+}
+
+#nav-link {
+    width: 80px;
+}
+
+#cwm-title {
+    text-shadow: 15px 10px 20px rgb(0, 0, 0);
 }
