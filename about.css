@@ -37,6 +37,7 @@
     height: 50px;
 }
 
+
 /* Media Queries*/
 @media screen and (max-width: 1080px) {
     .man {
@@ -50,6 +51,14 @@
     .about-me {
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 500px) {
+    #design {
+        width: 150px;
+        height: 50px;
+    }
+
 }
 
 @media screen and (min-width: 1920px) {
